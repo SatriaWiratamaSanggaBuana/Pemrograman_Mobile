@@ -27,7 +27,7 @@
         <action
             android:id="@+id/action_gameFragment_to_gameWonFragment"
             app:destination="@id/gameWonFragment"
-            app:popUpTo="@id/gameWonFragment"
+            app:popUpTo="@id/gameFragment"
             app:popUpToInclusive="true" />
     </fragment>
     <fragment
