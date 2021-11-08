@@ -20,6 +20,11 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-kapt'
 
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'androidx.navigation.safeargs'
+
+
 android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -29,7 +34,7 @@ android {
     defaultConfig {
         applicationId 'com.example.android.navigation'
         minSdkVersion 19
-        targetSdkVersion 30
+        targetSdkVersion 31
         vectorDrawables.useSupportLibrary = true
         versionCode 1
         versionName "1.0"
@@ -50,7 +55,9 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleDependency,GradleDependency
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    //noinspection GradleDependency,GradleDependency
     implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
     implementation "androidx.appcompat:appcompat:$supportlibVersion"
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
@@ -59,4 +66,5 @@ dependencies {
     implementation "com.google.android.material:material:$version"
     implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
+    implementation "com.google.android.material:material:$supportlibVersion"
 }
