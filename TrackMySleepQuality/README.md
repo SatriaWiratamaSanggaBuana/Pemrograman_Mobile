@@ -1,7 +1,7 @@
-TrackMySleepQuality - Starter Code for 6.2 Coroutines codelab
-=============================================================
+TrackMySleepQuality - Solution Code for 6.2 Coroutines codelab
+==============================================================
 
-Starter code for Android Kotlin Fundamentals Codelab 6.2 Coroutines
+Solution code for Android Kotlin Fundamentals Codelab 6.2 Coroutines
 
 Introduction
 ------------
@@ -9,12 +9,12 @@ Introduction
 TrackMySleepQuality is an app for recording sleep data for each night. 
 You can record a start and stop time, assign a quality rating, and clear the database. 
 
-In this codelab, working from this starter app, you will:
+This app:
 
-* Extend the TrackMySleepQuality app to collect, store, and display data in and from the database. 
-* Use coroutines to run long-running database operations in the background. 
-* Use LiveData to trigger navigation and showing of a snackbar. 
-* Use LiveData to enable and disable buttons.
+* Extends the TrackMySleepQuality app to collect, store, and display data in and from the database. 
+* Uses coroutines to run long-running database operations in the background. 
+* Uses LiveData to trigger navigation and showing of a snackbar. 
+* Uses LiveData to enable and disable buttons.
 
 
 Pre-requisites
