@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="?colorSurface"
+    app:cardElevation="4dp"
+    android:focusable="true"
+    android:layout_margin="30dp"
+    app:cardCornerRadius="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgResep"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_launcher_background"/>
+
+        <TextView
+            android:id="@+id/tvJudul"
+            style="@style/rv_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toRightOf="@+id/imgResep"
+            android:lines="3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgResep"
+            app:layout_constraintTop_toTopOf="@+id/imgResep"
+            tools:text="Resep Jamu Suwir, Semakin Melengkapi Hidangan Makan Siangmu" />
+
+    </RelativeLayout>
+
+
+<!--    <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <com.github.florent37.shapeofview.shapes.RoundRectView-->
+<!--            android:id="@+id/imgGuideLine"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:shape_roundRect_bottomLeftRadius="0dp"-->
+<!--            app:shape_roundRect_bottomRightRadius="0dp"-->
+<!--            app:shape_roundRect_topLeftRadius="10dp"-->
+<!--            app:shape_roundRect_topRightRadius="10dp">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imgResep"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="300dp"-->
+<!--                android:contentDescription="@string/app_name"-->
+<!--                android:scaleType="fitXY"-->
+<!--                tools:src="@drawable/ic_launcher_background" />-->
+
+<!--        </com.github.florent37.shapeofview.shapes.RoundRectView>-->
+
+</com.google.android.material.card.MaterialCardView>
